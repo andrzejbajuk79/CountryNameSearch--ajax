@@ -1,36 +1,65 @@
-// for (var i = 0; i < 100; i++) {
-// 	var request = new XMLHttpRequest();
-// 	request.open('GET', 'data.txt', false);
-// 	request.send();
-// 	if (request.status===200) {
-// 		console.log(request);
-// 		document.writeln(request.responseText);
-// 	}	
-// }
-// $("#button").click(function() {
-// 	$.ajax({
-// 		type: "GET",
-// 		url: "https://en.wikipedia.org/w/api.php?action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=json",
-// 		succes: function(data) {
-// 			console.log(data);
-// 		},
-// 		dataType: "jsonp"
-// 	});  
-//  });
+
 
 var url = 'http://api.icndb.com/jokes/random';
-var button = document.getElementById('get-joke');
-var paragraph = document.getElementById('joke');
-button.addEventListener('click', function(){
-  getJoke();
+
+// var button = document.getElementById('get-joke');
+var $button = $('#get-joke').click(function() {
+	getJoke();
 });
+// var paragraph = document.getElementById('joke');
+var $paragraph = $('#joke');
+// button.addEventListener('click', function(){
+//   getJoke();
+// });
+
+// function getJoke() {
+//   var xhr = new XMLHttpRequest();
+//   xhr.open('GET', url);
+//   xhr.addEventListener('load', function(){
+//     var response = JSON.parse(xhr.response);
+//     paragraph.innerText = response.value.joke;
+//   });
+//   xhr.send();
+// }
 
 function getJoke() {
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', url);
-  xhr.addEventListener('load', function(){
-    var response = JSON.parse(xhr.response);
-    paragraph.innerText = response.value.joke;
-  });
-  xhr.send();
+$.ajax({
+	method: 'GET',
+	url: url, 
+	success: function(res) {
+		$paragraph.text(res.value.joke);
+	}
+
+});
 }
+
+
+//cwiczenie nr 2
+//
+var tweetLink = "https://twitter.com/intent/tweet?text=";
+var quoteUrl = "http://api.forismatic.com/api/1.0/?method=getQuote&key=867576&format=jsonp&lang=en&jsonp=?";
+function getQuote() {
+	$.getJSON(quoteUrl, createTweet);
+}
+
+function createTweet(input) {
+	if (!input.quoteAuthor.length) {
+		input.quoteAuthor = "Unknown author";
+	}
+	var tweetText = "Quote of the day - " + input.quoteText + " Author: " + input.quoteAuthor;
+	if (tweetText.length > 140) {
+		getQuote();
+	} else {
+		var tweet = tweetLink + tweetText;
+		$('.quote').text(input.quoteText);
+		$('.author').text("Author: " + input.quoteAuthor);
+		$('.tweet').attr('href', tweet);
+	}
+	
+}
+$(document).ready(function() {
+	getQuote();
+	$('.trigger').click(function() {
+		getQuote();
+	})
+});
