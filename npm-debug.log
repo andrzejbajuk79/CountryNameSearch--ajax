@@ -1,0 +1,455 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'instal',
+1 verbose cli   'jquery',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v4.4.5
+4 warn package.json rep8column-master@1.0.0 No description
+5 warn package.json rep8column-master@1.0.0 No repository field.
+6 warn package.json rep8column-master@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'jquery', null ]
+9 verbose cache add name=undefined spec="jquery" args=["jquery",null]
+10 verbose parsed url Url {
+10 verbose parsed url   protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'jquery',
+10 verbose parsed url   path: 'jquery',
+10 verbose parsed url   href: 'jquery' }
+11 silly lockFile 6f2ab963-jquery jquery
+12 verbose lock jquery C:\Users\ptasi\AppData\Roaming\npm-cache\6f2ab963-jquery.lock
+13 silly lockFile 6f2ab963-jquery jquery
+14 silly lockFile 6f2ab963-jquery jquery
+15 verbose addNamed [ 'jquery', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 039e748d-jquery jquery@
+18 verbose lock jquery@ C:\Users\ptasi\AppData\Roaming\npm-cache\039e748d-jquery.lock
+19 silly addNameRange { name: 'jquery', range: '*', hasData: false }
+20 verbose request where is /jquery
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 8d9439b520b6f6d3
+23 verbose url raw /jquery
+24 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+25 verbose url resolved https://registry.npmjs.org/jquery
+26 verbose request where is https://registry.npmjs.org/jquery
+27 info trying registry request attempt 1 at 11:01:04 PM
+28 verbose etag "9Q6PNPB4656ONX2BZHS5VVZ9U"
+29 http GET https://registry.npmjs.org/jquery
+30 http 200 https://registry.npmjs.org/jquery
+31 silly registry.get cb [ 200,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"8HDGOY141ON2JNTF6BJ1E96G0"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'content-encoding': 'gzip',
+31 silly registry.get     'cache-control': 'max-age=300',
+31 silly registry.get     'content-length': '11200',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Wed, 13 Jul 2016 21:01:07 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '56',
+31 silly registry.get     connection: 'close',
+31 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1468443667.060433,VS0,VE0',
+31 silly registry.get     vary: 'Accept-Encoding' } ]
+32 silly addNameRange number 2 { name: 'jquery', range: '*', hasData: true }
+33 silly addNameRange versions [ 'jquery',
+33 silly addNameRange   [ '1.5.1',
+33 silly addNameRange     '1.6.2',
+33 silly addNameRange     '1.6.3',
+33 silly addNameRange     '1.7.2',
+33 silly addNameRange     '1.7.3',
+33 silly addNameRange     '1.8.2',
+33 silly addNameRange     '1.8.3',
+33 silly addNameRange     '2.1.0-beta2',
+33 silly addNameRange     '2.1.0-beta3',
+33 silly addNameRange     '1.11.0-beta3',
+33 silly addNameRange     '1.11.0-rc1',
+33 silly addNameRange     '2.1.0-rc1',
+33 silly addNameRange     '1.11.0',
+33 silly addNameRange     '2.1.0',
+33 silly addNameRange     '2.1.1-beta1',
+33 silly addNameRange     '1.11.1-beta1',
+33 silly addNameRange     '2.1.1-rc1',
+33 silly addNameRange     '1.11.1-rc1',
+33 silly addNameRange     '2.1.1-rc2',
+33 silly addNameRange     '1.11.1-rc2',
+33 silly addNameRange     '2.1.1',
+33 silly addNameRange     '1.11.1',
+33 silly addNameRange     '1.9.1',
+33 silly addNameRange     '2.1.2',
+33 silly addNameRange     '1.11.2',
+33 silly addNameRange     '2.1.3',
+33 silly addNameRange     '2.1.4',
+33 silly addNameRange     '1.11.3',
+33 silly addNameRange     '3.0.0-alpha1',
+33 silly addNameRange     '1.12.0',
+33 silly addNameRange     '2.2.0',
+33 silly addNameRange     '3.0.0-beta1',
+33 silly addNameRange     '1.12.1',
+33 silly addNameRange     '2.2.1',
+33 silly addNameRange     '1.12.2',
+33 silly addNameRange     '2.2.2',
+33 silly addNameRange     '1.12.3',
+33 silly addNameRange     '2.2.3',
+33 silly addNameRange     '1.12.4',
+33 silly addNameRange     '2.2.4',
+33 silly addNameRange     '3.0.0-rc1',
+33 silly addNameRange     '3.0.0',
+33 silly addNameRange     '3.1.0' ] ]
+34 verbose addNamed [ 'jquery', '3.1.0' ]
+35 verbose addNamed [ '3.1.0', '3.1.0' ]
+36 silly lockFile 77cbc626-jquery-3-1-0 jquery@3.1.0
+37 verbose lock jquery@3.1.0 C:\Users\ptasi\AppData\Roaming\npm-cache\77cbc626-jquery-3-1-0.lock
+38 silly lockFile 77cbc626-jquery-3-1-0 jquery@3.1.0
+39 silly lockFile 77cbc626-jquery-3-1-0 jquery@3.1.0
+40 silly lockFile 039e748d-jquery jquery@
+41 silly lockFile 039e748d-jquery jquery@
+42 silly resolved [ { name: 'jquery',
+42 silly resolved     title: 'jQuery',
+42 silly resolved     description: 'JavaScript library for DOM operations',
+42 silly resolved     version: '3.1.0',
+42 silly resolved     main: 'dist/jquery.js',
+42 silly resolved     homepage: 'https://jquery.com',
+42 silly resolved     author:
+42 silly resolved      { name: 'jQuery Foundation and other contributors',
+42 silly resolved        url: 'https://github.com/jquery/jquery/blob/3.1.0/AUTHORS.txt' },
+42 silly resolved     repository: { type: 'git', url: 'git+https://github.com/jquery/jquery.git' },
+42 silly resolved     keywords: [ 'jquery', 'javascript', 'browser', 'library' ],
+42 silly resolved     bugs: { url: 'https://github.com/jquery/jquery/issues' },
+42 silly resolved     license: 'MIT',
+42 silly resolved     dependencies: {},
+42 silly resolved     devDependencies:
+42 silly resolved      { 'babel-preset-es2015': '6.6.0',
+42 silly resolved        commitplease: '2.3.1',
+42 silly resolved        'core-js': '2.2.2',
+42 silly resolved        'cross-spawn': '2.2.3',
+42 silly resolved        'eslint-config-jquery': '0.1.6',
+42 silly resolved        grunt: '1.0.1',
+42 silly resolved        'grunt-babel': '6.0.0',
+42 silly resolved        'grunt-cli': '1.2.0',
+42 silly resolved        'grunt-compare-size': '0.4.2',
+42 silly resolved        'grunt-contrib-uglify': '1.0.1',
+42 silly resolved        'grunt-contrib-watch': '1.0.0',
+42 silly resolved        'grunt-eslint': '18.1.0',
+42 silly resolved        'grunt-git-authors': '3.2.0',
+42 silly resolved        'grunt-jsonlint': '1.0.7',
+42 silly resolved        'grunt-newer': '1.2.0',
+42 silly resolved        'grunt-npmcopy': '0.1.0',
+42 silly resolved        'gzip-js': '0.3.2',
+42 silly resolved        husky: '0.11.4',
+42 silly resolved        insight: '0.8.1',
+42 silly resolved        jsdom: '5.6.1',
+42 silly resolved        'load-grunt-tasks': '3.5.0',
+42 silly resolved        'native-promise-only': '0.8.1',
+42 silly resolved        'promises-aplus-tests': '2.1.1',
+42 silly resolved        q: '1.4.1',
+42 silly resolved        'qunit-assert-step': '1.0.3',
+42 silly resolved        qunitjs: '1.23.1',
+42 silly resolved        requirejs: '2.2.0',
+42 silly resolved        sinon: '1.17.3',
+42 silly resolved        sizzle: '2.3.0',
+42 silly resolved        'strip-json-comments': '2.0.1',
+42 silly resolved        testswarm: '1.1.0' },
+42 silly resolved     scripts:
+42 silly resolved      { build: 'npm install && grunt',
+42 silly resolved        start: 'grunt watch',
+42 silly resolved        test: 'grunt && grunt test',
+42 silly resolved        precommit: 'grunt precommit_lint' },
+42 silly resolved     commitplease: { components: [Object] },
+42 silly resolved     gitHead: '6f02bc382c0529d3b4f68f6b2ad21876642dbbfe',
+42 silly resolved     _id: 'jquery@3.1.0',
+42 silly resolved     _shasum: '129f6f1ae94b18f09010b008d0d6011e40613d7f',
+42 silly resolved     _from: 'jquery@',
+42 silly resolved     _npmVersion: '2.15.8',
+42 silly resolved     _nodeVersion: '4.4.7',
+42 silly resolved     _npmUser: { name: 'timmywil', email: 'timmywillisn@gmail.com' },
+42 silly resolved     dist:
+42 silly resolved      { shasum: '129f6f1ae94b18f09010b008d0d6011e40613d7f',
+42 silly resolved        tarball: 'https://registry.npmjs.org/jquery/-/jquery-3.1.0.tgz' },
+42 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+42 silly resolved     _npmOperationalInternal:
+42 silly resolved      { host: 'packages-16-east.internal.npmjs.com',
+42 silly resolved        tmp: 'tmp/jquery-3.1.0.tgz_1467927964329_0.882518710102886' },
+42 silly resolved     directories: {},
+42 silly resolved     _resolved: 'https://registry.npmjs.org/jquery/-/jquery-3.1.0.tgz',
+42 silly resolved     readme: 'ERROR: No README data found!' } ]
+43 info install jquery@3.1.0 into C:\ajax\rep8
+44 info installOne jquery@3.1.0
+45 verbose node_modules\jquery unbuild
+46 verbose tar unpack C:\Users\ptasi\AppData\Roaming\npm-cache\jquery\3.1.0\package.tgz
+47 silly lockFile 164de99f--C-ajax-rep8-node-modules-jquery tar://C:\ajax\rep8\node_modules\jquery
+48 verbose lock tar://C:\ajax\rep8\node_modules\jquery C:\Users\ptasi\AppData\Roaming\npm-cache\164de99f--C-ajax-rep8-node-modules-jquery.lock
+49 silly lockFile bcab80d2-m-cache-jquery-3-1-0-package-tgz tar://C:\Users\ptasi\AppData\Roaming\npm-cache\jquery\3.1.0\package.tgz
+50 verbose lock tar://C:\Users\ptasi\AppData\Roaming\npm-cache\jquery\3.1.0\package.tgz C:\Users\ptasi\AppData\Roaming\npm-cache\bcab80d2-m-cache-jquery-3-1-0-package-tgz.lock
+51 silly gunzTarPerm modes [ '777', '666' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+56 silly gunzTarPerm extractEntry AUTHORS.txt
+57 silly gunzTarPerm modified mode [ 'AUTHORS.txt', 420, 438 ]
+58 silly gunzTarPerm extractEntry LICENSE.txt
+59 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+60 silly gunzTarPerm extractEntry bower.json
+61 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+62 silly gunzTarPerm extractEntry dist/core.js
+63 silly gunzTarPerm modified mode [ 'dist/core.js', 420, 438 ]
+64 silly gunzTarPerm extractEntry dist/jquery.js
+65 silly gunzTarPerm modified mode [ 'dist/jquery.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry dist/jquery.min.js
+67 silly gunzTarPerm modified mode [ 'dist/jquery.min.js', 420, 438 ]
+68 silly gunzTarPerm extractEntry dist/jquery.slim.js
+69 silly gunzTarPerm modified mode [ 'dist/jquery.slim.js', 420, 438 ]
+70 silly gunzTarPerm extractEntry dist/jquery.slim.min.js
+71 silly gunzTarPerm modified mode [ 'dist/jquery.slim.min.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry dist/jquery.min.map
+73 silly gunzTarPerm modified mode [ 'dist/jquery.min.map', 420, 438 ]
+74 silly gunzTarPerm extractEntry dist/jquery.slim.min.map
+75 silly gunzTarPerm modified mode [ 'dist/jquery.slim.min.map', 420, 438 ]
+76 silly gunzTarPerm extractEntry external/sizzle/LICENSE.txt
+77 silly gunzTarPerm modified mode [ 'external/sizzle/LICENSE.txt', 420, 438 ]
+78 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.js
+79 silly gunzTarPerm modified mode [ 'external/sizzle/dist/sizzle.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.js
+81 silly gunzTarPerm modified mode [ 'external/sizzle/dist/sizzle.min.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.map
+83 silly gunzTarPerm modified mode [ 'external/sizzle/dist/sizzle.min.map', 420, 438 ]
+84 silly gunzTarPerm extractEntry src/wrap.js
+85 silly gunzTarPerm modified mode [ 'src/wrap.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry src/core.js
+87 silly gunzTarPerm modified mode [ 'src/core.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry src/selector.js
+89 silly gunzTarPerm modified mode [ 'src/selector.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry src/css.js
+91 silly gunzTarPerm modified mode [ 'src/css.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry src/selector-sizzle.js
+93 silly gunzTarPerm modified mode [ 'src/selector-sizzle.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry src/serialize.js
+95 silly gunzTarPerm modified mode [ 'src/serialize.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry src/selector-native.js
+97 silly gunzTarPerm modified mode [ 'src/selector-native.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry src/deferred.js
+99 silly gunzTarPerm modified mode [ 'src/deferred.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry src/deprecated.js
+101 silly gunzTarPerm modified mode [ 'src/deprecated.js', 420, 438 ]
+102 silly gunzTarPerm extractEntry src/dimensions.js
+103 silly gunzTarPerm modified mode [ 'src/dimensions.js', 420, 438 ]
+104 silly gunzTarPerm extractEntry src/queue.js
+105 silly gunzTarPerm modified mode [ 'src/queue.js', 420, 438 ]
+106 silly gunzTarPerm extractEntry src/callbacks.js
+107 silly gunzTarPerm modified mode [ 'src/callbacks.js', 420, 438 ]
+108 silly gunzTarPerm extractEntry src/offset.js
+109 silly gunzTarPerm modified mode [ 'src/offset.js', 420, 438 ]
+110 silly gunzTarPerm extractEntry src/attributes.js
+111 silly gunzTarPerm modified mode [ 'src/attributes.js', 420, 438 ]
+112 silly gunzTarPerm extractEntry src/manipulation.js
+113 silly gunzTarPerm modified mode [ 'src/manipulation.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry src/traversing.js
+115 silly gunzTarPerm modified mode [ 'src/traversing.js', 420, 438 ]
+116 silly gunzTarPerm extractEntry src/event.js
+117 silly gunzTarPerm modified mode [ 'src/event.js', 420, 438 ]
+118 silly gunzTarPerm extractEntry src/ajax.js
+119 silly gunzTarPerm modified mode [ 'src/ajax.js', 420, 438 ]
+120 silly gunzTarPerm extractEntry src/jquery.js
+121 silly gunzTarPerm modified mode [ 'src/jquery.js', 420, 438 ]
+122 silly gunzTarPerm extractEntry src/data.js
+123 silly gunzTarPerm modified mode [ 'src/data.js', 420, 438 ]
+124 silly gunzTarPerm extractEntry src/effects.js
+125 silly gunzTarPerm modified mode [ 'src/effects.js', 420, 438 ]
+126 silly gunzTarPerm extractEntry src/data/Data.js
+127 silly gunzTarPerm modified mode [ 'src/data/Data.js', 420, 438 ]
+128 silly gunzTarPerm extractEntry src/data/var/acceptData.js
+129 silly gunzTarPerm modified mode [ 'src/data/var/acceptData.js', 420, 438 ]
+130 silly gunzTarPerm extractEntry src/data/var/dataPriv.js
+131 silly gunzTarPerm modified mode [ 'src/data/var/dataPriv.js', 420, 438 ]
+132 silly gunzTarPerm extractEntry src/data/var/dataUser.js
+133 silly gunzTarPerm modified mode [ 'src/data/var/dataUser.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry src/exports/amd.js
+135 silly gunzTarPerm modified mode [ 'src/exports/amd.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry src/exports/global.js
+137 silly gunzTarPerm modified mode [ 'src/exports/global.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry src/event/ajax.js
+139 silly gunzTarPerm modified mode [ 'src/event/ajax.js', 420, 438 ]
+140 silly gunzTarPerm extractEntry src/event/alias.js
+141 silly gunzTarPerm modified mode [ 'src/event/alias.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry src/event/focusin.js
+143 silly gunzTarPerm modified mode [ 'src/event/focusin.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry src/event/support.js
+145 silly gunzTarPerm modified mode [ 'src/event/support.js', 420, 438 ]
+146 silly gunzTarPerm extractEntry src/event/trigger.js
+147 silly gunzTarPerm modified mode [ 'src/event/trigger.js', 420, 438 ]
+148 silly gunzTarPerm extractEntry src/ajax/jsonp.js
+149 silly gunzTarPerm modified mode [ 'src/ajax/jsonp.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry src/ajax/load.js
+151 silly gunzTarPerm modified mode [ 'src/ajax/load.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry src/ajax/parseXML.js
+153 silly gunzTarPerm modified mode [ 'src/ajax/parseXML.js', 420, 438 ]
+154 silly gunzTarPerm extractEntry src/ajax/script.js
+155 silly gunzTarPerm modified mode [ 'src/ajax/script.js', 420, 438 ]
+156 silly gunzTarPerm extractEntry src/ajax/xhr.js
+157 silly gunzTarPerm modified mode [ 'src/ajax/xhr.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry src/ajax/var/location.js
+159 silly gunzTarPerm modified mode [ 'src/ajax/var/location.js', 420, 438 ]
+160 silly gunzTarPerm extractEntry src/ajax/var/nonce.js
+161 silly gunzTarPerm modified mode [ 'src/ajax/var/nonce.js', 420, 438 ]
+162 silly gunzTarPerm extractEntry src/ajax/var/rquery.js
+163 silly gunzTarPerm modified mode [ 'src/ajax/var/rquery.js', 420, 438 ]
+164 silly gunzTarPerm extractEntry src/queue/delay.js
+165 silly gunzTarPerm modified mode [ 'src/queue/delay.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry src/effects/Tween.js
+167 silly gunzTarPerm modified mode [ 'src/effects/Tween.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry src/effects/animatedSelector.js
+169 silly gunzTarPerm modified mode [ 'src/effects/animatedSelector.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry src/deferred/exceptionHook.js
+171 silly gunzTarPerm modified mode [ 'src/deferred/exceptionHook.js', 420, 438 ]
+172 silly gunzTarPerm extractEntry src/manipulation/_evalUrl.js
+173 silly gunzTarPerm modified mode [ 'src/manipulation/_evalUrl.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry src/manipulation/buildFragment.js
+175 silly gunzTarPerm modified mode [ 'src/manipulation/buildFragment.js', 420, 438 ]
+176 silly gunzTarPerm extractEntry src/manipulation/getAll.js
+177 silly gunzTarPerm modified mode [ 'src/manipulation/getAll.js', 420, 438 ]
+178 silly gunzTarPerm extractEntry src/manipulation/setGlobalEval.js
+179 silly gunzTarPerm modified mode [ 'src/manipulation/setGlobalEval.js', 420, 438 ]
+180 silly gunzTarPerm extractEntry src/manipulation/support.js
+181 silly gunzTarPerm modified mode [ 'src/manipulation/support.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry src/manipulation/wrapMap.js
+183 silly gunzTarPerm modified mode [ 'src/manipulation/wrapMap.js', 420, 438 ]
+184 silly gunzTarPerm extractEntry src/manipulation/var/rcheckableType.js
+185 silly gunzTarPerm modified mode [ 'src/manipulation/var/rcheckableType.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry src/manipulation/var/rscriptType.js
+187 silly gunzTarPerm modified mode [ 'src/manipulation/var/rscriptType.js', 420, 438 ]
+188 silly gunzTarPerm extractEntry src/manipulation/var/rtagName.js
+189 silly gunzTarPerm modified mode [ 'src/manipulation/var/rtagName.js', 420, 438 ]
+190 silly gunzTarPerm extractEntry src/css/addGetHookIf.js
+191 silly gunzTarPerm modified mode [ 'src/css/addGetHookIf.js', 420, 438 ]
+192 silly gunzTarPerm extractEntry src/css/adjustCSS.js
+193 silly gunzTarPerm modified mode [ 'src/css/adjustCSS.js', 420, 438 ]
+194 silly gunzTarPerm extractEntry src/css/curCSS.js
+195 silly gunzTarPerm modified mode [ 'src/css/curCSS.js', 420, 438 ]
+196 silly gunzTarPerm extractEntry src/css/hiddenVisibleSelectors.js
+197 silly gunzTarPerm modified mode [ 'src/css/hiddenVisibleSelectors.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry src/css/showHide.js
+199 silly gunzTarPerm modified mode [ 'src/css/showHide.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry src/css/support.js
+201 silly gunzTarPerm modified mode [ 'src/css/support.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry src/css/var/cssExpand.js
+203 silly gunzTarPerm modified mode [ 'src/css/var/cssExpand.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry src/css/var/getStyles.js
+205 silly gunzTarPerm modified mode [ 'src/css/var/getStyles.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry src/css/var/isHiddenWithinTree.js
+207 silly gunzTarPerm modified mode [ 'src/css/var/isHiddenWithinTree.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry src/css/var/rmargin.js
+209 silly gunzTarPerm modified mode [ 'src/css/var/rmargin.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry src/css/var/rnumnonpx.js
+211 silly gunzTarPerm modified mode [ 'src/css/var/rnumnonpx.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry src/css/var/swap.js
+213 silly gunzTarPerm modified mode [ 'src/css/var/swap.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry src/core/DOMEval.js
+215 silly gunzTarPerm modified mode [ 'src/core/DOMEval.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry src/core/access.js
+217 silly gunzTarPerm modified mode [ 'src/core/access.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry src/core/init.js
+219 silly gunzTarPerm modified mode [ 'src/core/init.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry src/core/parseHTML.js
+221 silly gunzTarPerm modified mode [ 'src/core/parseHTML.js', 420, 438 ]
+222 silly gunzTarPerm extractEntry src/core/ready-no-deferred.js
+223 silly gunzTarPerm modified mode [ 'src/core/ready-no-deferred.js', 420, 438 ]
+224 silly gunzTarPerm extractEntry src/core/ready.js
+225 silly gunzTarPerm modified mode [ 'src/core/ready.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry src/core/readyException.js
+227 silly gunzTarPerm modified mode [ 'src/core/readyException.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry src/core/support.js
+229 silly gunzTarPerm modified mode [ 'src/core/support.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry src/core/var/rsingleTag.js
+231 silly gunzTarPerm modified mode [ 'src/core/var/rsingleTag.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry src/traversing/findFilter.js
+233 silly gunzTarPerm modified mode [ 'src/traversing/findFilter.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry src/traversing/var/dir.js
+235 silly gunzTarPerm modified mode [ 'src/traversing/var/dir.js', 420, 438 ]
+236 silly gunzTarPerm extractEntry src/traversing/var/rneedsContext.js
+237 silly gunzTarPerm modified mode [ 'src/traversing/var/rneedsContext.js', 420, 438 ]
+238 silly gunzTarPerm extractEntry src/traversing/var/siblings.js
+239 silly gunzTarPerm modified mode [ 'src/traversing/var/siblings.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry src/attributes/attr.js
+241 silly gunzTarPerm modified mode [ 'src/attributes/attr.js', 420, 438 ]
+242 silly gunzTarPerm extractEntry src/attributes/classes.js
+243 silly gunzTarPerm modified mode [ 'src/attributes/classes.js', 420, 438 ]
+244 silly gunzTarPerm extractEntry src/attributes/prop.js
+245 silly gunzTarPerm modified mode [ 'src/attributes/prop.js', 420, 438 ]
+246 silly gunzTarPerm extractEntry src/attributes/support.js
+247 silly gunzTarPerm modified mode [ 'src/attributes/support.js', 420, 438 ]
+248 silly gunzTarPerm extractEntry src/attributes/val.js
+249 silly gunzTarPerm modified mode [ 'src/attributes/val.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry src/var/ObjectFunctionString.js
+251 silly gunzTarPerm modified mode [ 'src/var/ObjectFunctionString.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry src/var/documentElement.js
+253 silly gunzTarPerm modified mode [ 'src/var/documentElement.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry src/var/fnToString.js
+255 silly gunzTarPerm modified mode [ 'src/var/fnToString.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry src/var/getProto.js
+257 silly gunzTarPerm modified mode [ 'src/var/getProto.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry src/var/document.js
+259 silly gunzTarPerm modified mode [ 'src/var/document.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry src/var/indexOf.js
+261 silly gunzTarPerm modified mode [ 'src/var/indexOf.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry src/var/pnum.js
+263 silly gunzTarPerm modified mode [ 'src/var/pnum.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry src/var/push.js
+265 silly gunzTarPerm modified mode [ 'src/var/push.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry src/var/rcssNum.js
+267 silly gunzTarPerm modified mode [ 'src/var/rcssNum.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry src/var/rnotwhite.js
+269 silly gunzTarPerm modified mode [ 'src/var/rnotwhite.js', 420, 438 ]
+270 silly gunzTarPerm extractEntry src/var/concat.js
+271 silly gunzTarPerm modified mode [ 'src/var/concat.js', 420, 438 ]
+272 silly gunzTarPerm extractEntry src/var/slice.js
+273 silly gunzTarPerm modified mode [ 'src/var/slice.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry src/var/class2type.js
+275 silly gunzTarPerm modified mode [ 'src/var/class2type.js', 420, 438 ]
+276 silly gunzTarPerm extractEntry src/var/support.js
+277 silly gunzTarPerm modified mode [ 'src/var/support.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry src/var/arr.js
+279 silly gunzTarPerm modified mode [ 'src/var/arr.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry src/var/toString.js
+281 silly gunzTarPerm modified mode [ 'src/var/toString.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry src/var/hasOwn.js
+283 silly gunzTarPerm modified mode [ 'src/var/hasOwn.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry src/.eslintrc
+285 silly gunzTarPerm modified mode [ 'src/.eslintrc', 420, 438 ]
+286 silly lockFile 164de99f--C-ajax-rep8-node-modules-jquery tar://C:\ajax\rep8\node_modules\jquery
+287 silly lockFile 164de99f--C-ajax-rep8-node-modules-jquery tar://C:\ajax\rep8\node_modules\jquery
+288 silly lockFile bcab80d2-m-cache-jquery-3-1-0-package-tgz tar://C:\Users\ptasi\AppData\Roaming\npm-cache\jquery\3.1.0\package.tgz
+289 silly lockFile bcab80d2-m-cache-jquery-3-1-0-package-tgz tar://C:\Users\ptasi\AppData\Roaming\npm-cache\jquery\3.1.0\package.tgz
+290 info preinstall jquery@3.1.0
+291 verbose readDependencies using package.json deps
+292 verbose readDependencies using package.json deps
+293 silly resolved []
+294 verbose about to build C:\ajax\rep8\node_modules\jquery
+295 info build C:\ajax\rep8\node_modules\jquery
+296 verbose linkStuff [ false, false, false, 'C:\\ajax\\rep8\\node_modules' ]
+297 info linkStuff jquery@3.1.0
+298 verbose linkBins jquery@3.1.0
+299 verbose linkMans jquery@3.1.0
+300 verbose rebuildBundles jquery@3.1.0
+301 info install jquery@3.1.0
+302 info postinstall jquery@3.1.0
+303 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+303 error peerinvalid Peer grunt-serve@0.1.6 wants grunt@~0.4.0
+304 error System Windows_NT 10.0.10586
+305 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "instal" "jquery" "--save"
+306 error cwd C:\ajax\rep8
+307 error node -v v4.4.5
+308 error npm -v 1.4.28
+309 error code EPEERINVALID
+310 verbose exit [ 1, true ]
