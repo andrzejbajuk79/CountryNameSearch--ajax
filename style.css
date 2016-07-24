@@ -1,0 +1,51 @@
+body {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background: 
+		-webkit-linear-gradient(left, rgba(6, 4, 34, 0.8) 0%,rgba(6, 4, 34, 0.8) 100%), 
+		url('http://oxygenworldwide.com/images/stories/news/959d67e85a5853dc2887501513f737ae.jpg') no-repeat, 
+		  url('http://oxygenworldwide.com/images/stories/news/959d67e85a5853dc2887501513f737ae.jpg');
+	background:   
+		linear-gradient(to right, rgba(6, 4, 34, 0.8) 0%,rgba(6, 4, 34, 0.8) 100%), 
+		url('http://oxygenworldwide.com/images/stories/news/959d67e85a5853dc2887501513f737ae.jpg') no-repeat,
+		  url('http://oxygenworldwide.com/images/stories/news/959d67e85a5853dc2887501513f737ae.jpg');
+	background-size: cover;
+	color: wheat;
+
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #E1E2D9;
+	padding: 30px;
+	background: transparent;
+}
+h1 {
+	text-align: center;
+}
+#country-name { 
+    float: right;
+    margin-right: 100px;
+    padding: 10px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+ }
+ #search {
+	padding: 15px;
+    margin-left: 200px;
+    float: left;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+ #countries {
+ 	list-style: none;
+ }

@@ -21,7 +21,7 @@ function searchCountries() {
 function showNeigboursList(resp) {
      // neighbourList.empty();
      var country = resp[0].name;
-     var countryToAdd = ' ' + resp[0].nativeName + ',';
+     var countryToAdd = ' ' + resp[0].name + ',';
      var textToDisplay = neighbourList.html();
      neighbourList.text(textToDisplay + countryToAdd);
 }
@@ -46,15 +46,4 @@ function showCountriesList(response) {
 	
 }
 
-// function showNeigboursList(resp) {
-// 	 neighbourList.empty();
-// 	 console.log("odp z serwera", resp);
-// 	 console.log("nazwa",resp[0].name);
-// 	 // var country = resp[0].name;
-	
-// 	// neighbourList.text(country).appendTo(neighbourList + " , ");
-// 	var countryToAdd = ' ' + resp[0].nativeName + ',';
-// 	neighbourList.innerHTML += countryToAdd;
-	
-	
-// }
+
