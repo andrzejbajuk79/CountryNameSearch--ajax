@@ -1,13 +1,12 @@
 #Country name search using Ajax , api
 
-The purpose of this exercise is to dynamic  serch countrym get all information in object an get them out, on page, for example
+The purpose of this exercise is to dynamic  search country get all information in object an get them out, on page, for example
 neighbour countries
 
 ##Instruction
 
 - Clone this repo ```git clone``` and check into the folder 
-- Run ```npm install``` to download dependencies (gulp)
-- Run ```open index.html``` for Mac or ```start index.html``` for Win to see JS app
+- Run ```npm install``` to download dependencies 
 
 
 
